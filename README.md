@@ -22,7 +22,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/你的用户名/todo-manager.git
+git clone https://github.com/whk985211/todo-manager.git
 cd todo-manager
 
 # 2. 创建并激活虚拟环境
