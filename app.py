@@ -747,5 +747,7 @@ def delete(task_id):
 
 if __name__ == "__main__":
     init_db()
+    port = int(os.environ.get("PORT", 5000))
     print(f"[OK] DB: {DB_PATH}")
-    app.run(debug=True, use_reloader=False)
+    print(f"[OK] Server: http://0.0.0.0:{port}")
+    app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
